@@ -19,27 +19,30 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
+<body>
 <!-- Header Section -->
 <header>
-   <div class="header__container">
-        <div class="left-nav">
-            <span class="material-icons burger">lunch_dining</span><span class="burger-text">BURGER HOUSE</span>
+  <div class="header__block">
+        <div class="header__container">
+            <div class="left-nav">
+                <span class="material-icons burger">lunch_dining</span><span class="burger-text">BURGER HOUSE</span>
+            </div>
+            <!-- Menu Toggle -->
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <!-- Menu Toggle End -->
+            <div class="right-nav">
+                <span class="material-icons deliver">delivery_dining</span><span class="deliver-text">Express Delivery +1 234 567 890</span>
+            </div>
         </div>
-
-        <div class="right-nav">
-            <span class="material-icons deliver">delivery_dining</span><span class="deliver-text">Express Delivery +1 234 567 890</span>
+        <div class="navigation__container">
+            <ul class="navigation">
+                <li><a href="">HOME</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">OUR STORY</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
         </div>
     </div>
-    <div class="navigation__container">
-        <ul class="navigation">
-            <li><a href="">HOME</a></li>
-            <li><a href="">MENU</a></li>
-            <li><a href="">OUR STORY</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
-    </div>
-
     <div class="header__contents">
         <div class="header-left">
             <div class="header-left__content">
@@ -50,7 +53,7 @@
             
         </div>
         <div class="header-right">
-            <img src="images/banner-img.png" alt="burger">
+            <img src="images/burgerImg.png" alt="burger">
         </div>
 
     </div>
@@ -66,8 +69,8 @@
 <!-- Footer Section -->
 
 
-<body>
 
+<script src="./js/script.js"></script>
 </body>
 
 </html>
