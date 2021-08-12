@@ -15,6 +15,11 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto&family=Teko:wght@400;500&display=swap" rel="stylesheet">
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/49c0517b17.js" crossorigin="anonymous"></script>
 
@@ -42,10 +47,10 @@
             </div>
             <div class="navigation__container">
                 <ul class="navigation">
-                    <li><a href="">HOME</a></li>
+                    <li><a href="#">HOME</a></li>
                     <li><a href="">MENU</a></li>
                     <li><a href="">OUR STORY</a></li>
-                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
                 </ul>
             </div>
         </div>
@@ -73,35 +78,48 @@
 
 
     <!-- Body Section -2 -->
+    <div class="mother__category">
+        <div class="firstbox__categories">
+            <div class="box1__category">
+                <h5>DISCOVER</h5>
+                <h1>UPCOMING EVENTS</h1>
+                <p>Burger lovers hurray! Get ready as a new place to eat is coming to Jabi lake Mall. WAAW Foundation burger Company is a locally owned restaurant that features world themed burgers, homemade buns and 100% certified Angus beef. Now you can
+                    buy a pack of burgers at your local supermarket and "Git-R-Done" for your eating pleasure."</p>
 
+            </div>
+            <div class="box2__category">
+                <img src="./images/group2image.jpg" alt="burger picture">
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Section -->
-    <div class="container-fluid  d-flex flex-column justify-content-center">
-        <div class=" container-fluid d-flex flex-column mt-5">
-            <div class="footer__heading">
+    <div class="container d-flex flex-column">
+        <div class="d-flex flex-row">
+            <!-- <img class="form__img" src="./images/burger3.png" alt=""> -->
+            <div class="footer__heading mr-4">
                 <span>RESERVATION</span>
                 <h1>BOOK YOUR TABLE</h1>
             </div>
-            <div class="container-fluid d-flex flex-row">
-                <div class="form__image1">
-                    <img class="" src="./images/ketchup.png" alt="">
+        </div>
+        <div class=" container d-flex flex-column mt-5">
+
+            <div id="footer" class="container d-flex flex-row">
+                <div class="form__image1 w-25">
+                    <img class="w-100" src="./images/ketchup.png" alt="">
                 </div>
-                <form class="w-sm-25" action="">
-                    <div class="container form d-flex">
-                        <div class="justify-1">
-                            <input class="" type="text" placeholder="NAME" name="" id="">
-                            <input type="text" placeholder="DATE" name="" id="">
-                            <input type="text" placeholder="PEOPLE" name="" id="">
-                        </div>
-                        <div class="justify-2">
-                            <input type="text" placeholder="EMAIL" name="" id="">
-                            <input type="text" placeholder="TIME" name="" id="">
-                            <input type="button" value="FIND A TABLE">
-                        </div>
-                    </div>
-                </form>
-                <div class="form__image2">
-                    <img src="./images/burger.png" alt="">
+                <div class="d-flex flex-column w-100 input-1">
+                    <input class="" type="text" placeholder="NAME" name="" id="">
+                    <input type="text" placeholder="DATE" name="" id="">
+                    <input type="text" placeholder="PEOPLE" name="" id="">
+                </div>
+                <div class="d-flex flex-column w-100 input-2">
+                    <input type="text" placeholder="EMAIL" name="" id="">
+                    <input type="text" placeholder="TIME" name="" id="">
+                    <input type="button" value="FIND A TABLE">
+                </div>
+                <div class="form__image2 w-100">
+                    <img class="w-100" src="./images/burger.png" alt="">
                 </div>
             </div>
 
@@ -123,12 +141,15 @@
             <div class="d-flex flex-row justify-content-around">
 
                 <div class="d-flex flex-row">
-                    <div class="others__paragraph ">
-                        <p class="w-50"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div class="others__paragraph">
+                        <p class="w-100 pr-4"> Since 2009, we've been serving-up seriously yummy eats, with our crave-able burgers and shareable sides earning Burger House a place among Nigerias' best restaurant lists and topping the nation's best burger lists.
+                            <!-- Burger-fied Abuja, Nigeria, and Lagos, expanding from our flagship Jabi restaurant. In early 2017, we opened our first international location. In 2021 WAAW launched Burger House Unboxed to further support the evolving preferences
+                            of our customers such as food halls, ghost kitchens and mobile delivery. Burger House will continue its expansion.</p> -->
+                        </p>
 
                     </div>
                     <div class="d-flex flex-column">
-                        <div class="info d-flex flex-row">
+                        <div class="d-flex flex-row">
                             <div>
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
