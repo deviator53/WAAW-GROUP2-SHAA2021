@@ -7,70 +7,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/49c0517b17.js" crossorigin="anonymous"></script>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <!-- Custom Style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-<!-- Header Section -->
-<header>
-  <div class="header__block">
-        <div class="header__container">
-            <div class="left-nav">
-                <span class="material-icons burger">lunch_dining</span><span class="burger-text">BURGER HOUSE</span>
+    <!-- Header Section -->
+    <header>
+        <div class="header__block">
+            <div class="header__container">
+                <div class="left-nav">
+                    <span class="material-icons burger">lunch_dining</span><span class="burger-text">BURGER HOUSE</span>
+                </div>
+                <!-- Menu Toggle -->
+                <div class="menuToggle" onclick="toggleMenu();"></div>
+                <!-- Menu Toggle End -->
+                <div class="right-nav">
+                    <span class="material-icons deliver">delivery_dining</span><span class="deliver-text">Express Delivery +1 234 567 890</span>
+                </div>
             </div>
-            <!-- Menu Toggle -->
-            <div class="menuToggle" onclick="toggleMenu();"></div>
-            <!-- Menu Toggle End -->
-            <div class="right-nav">
-                <span class="material-icons deliver">delivery_dining</span><span class="deliver-text">Express Delivery +1 234 567 890</span>
+            <div class="navigation__container">
+                <ul class="navigation">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">OUR STORY</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
             </div>
         </div>
-        <div class="navigation__container">
-            <ul class="navigation">
-                <li><a href="">HOME</a></li>
-                <li><a href="">MENU</a></li>
-                <li><a href="">OUR STORY</a></li>
-                <li><a href="">CONTACT US</a></li>
-            </ul>
+        <div class="header__contents">
+            <div class="header-left">
+                <div class="header-left__content">
+                    <h3>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGERS</h3>
+                    <div class="burger_text">BURGER</div>
+                    <div class="week_text">WEEK</div>
+                </div>
+
+            </div>
+            <div class="header-right">
+                <img src="images/burgerImg.png" alt="burger">
+            </div>
+
         </div>
+
+
+
+    </header>
+
+
+    <!-- Body Section -1 -->
+
+
+    <!-- Body Section -2 -->
+
+
+    <!-- Footer Section -->
+    <div class="container-fluid  d-flex flex-column justify-content-center">
+        <div class=" container-fluid d-flex flex-column mt-5">
+            <div class="footer__heading">
+                <span>RESERVATION</span>
+                <h1>BOOK YOUR TABLE</h1>
+            </div>
+            <div class="container-fluid d-flex flex-row">
+                <div class="form__image1">
+                    <img src="./images/ketchup.png" alt="">
+                </div>
+                <form action="">
+                    <div class="container form d-flex">
+                        <div class="justify-1">
+                            <input class="" type="text" placeholder="NAME" name="" id="">
+                            <input type="text" placeholder="DATE" name="" id="">
+                            <input type="text" placeholder="PEOPLE" name="" id="">
+                        </div>
+                        <div class="justify-2">
+                            <input type="text" placeholder="EMAIL" name="" id="">
+                            <input type="text" placeholder="TIME" name="" id="">
+                            <input type="button" value="FIND A TABLE">
+                        </div>
+                    </div>
+                </form>
+                <div class="form__image2">
+                    <img src="./images/burger.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="other container d-flex flex-column  container__others mb-2 pt-4">
+            <div class="d-flex flex-column">
+                <div class="others__heading d-flex flex-row">
+                    <div>
+                        <span class="material-icons burger">lunch_dining</span>
+                    </div>
+                    <div>
+                        <h1 class="mt-4 mx-4">BURGER HOUSE</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-around">
+
+                <div class="d-flex flex-row">
+                    <div class="others__paragraph ">
+                        <p class="w-50"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="info d-flex flex-row">
+                            <div>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-6 mx-4">SUITE 106, MKK PLAZA, JABI, ABUJA &bull; NIGERIA</h3>
+                            </div>
+
+                        </div>
+                        <div class="info d-flex flex-row">
+                            <div>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-6 mx-4">INFO@BURGERHOUSE.COM</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <div class="others__paragraph_info">
+                    <h5>&COPY; BURGER HOUSE 2021 ALL RIGHTS RESERVED</h5>
+                </div>
+                <div class="others__socialmedia">
+                    <i class="fab mx-1 fa-instagram"></i>
+                    <i class="fab mx-1 fa-facebook"></i>
+                    <i class="fab mx-1 fa-twitter"></i>
+                    <i class="fab mx-1 fa-whatsapp"></i>
+
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="header__contents">
-        <div class="header-left">
-            <div class="header-left__content">
-                <h3>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGERS</h3>
-                <div class="burger_text">BURGER</div>
-                <div class="week_text">WEEK</div>
-            </div>
-            
-        </div>
-        <div class="header-right">
-            <img src="images/burgerImg.png" alt="burger">
-        </div>
-
-    </div>
 
 
-   
-</header>
+    <!-- Footer Section End -->
 
 
-<!-- Body Section -->
-
-
-<!-- Footer Section -->
-
-
-
-<script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

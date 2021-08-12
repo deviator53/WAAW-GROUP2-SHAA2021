@@ -1,16 +1,26 @@
-
 * {
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: "Teko";
+}
+
+
+/* Default Styles End */
+
+
 /* Header start */
-header{
+
+header {
     position: relative;
     width: 100%;
     min-height: 100vh;
     background-color: #ffcd62;
 }
-.header__block{
+
+.header__block {
     /* position: fixed;
     top: 0;
     left: 0;
@@ -18,107 +28,226 @@ header{
     z-index: 1000;
     background-color: #ffcd62; */
 }
-.header__container{
+
+.header__container {
     display: flex;
     justify-content: space-between;
     padding: 30px 30px 20px 30px;
 }
 
-.burger{
+.burger {
     font-size: 60px;
     color: #52311e;
 }
-.burger-text{
+
+.burger-text {
     font-size: 30px;
     font-weight: 800;
     margin-left: 15px;
     color: #52311e;
     font-family: 'Teko', sans-serif;
 }
-.deliver{
+
+.deliver {
     font-size: 40px;
 }
-.deliver-text{
+
+.deliver-text {
     font-size: 20px;
     margin-left: 15px;
     color: #52311e;
     font-family: 'Teko', sans-serif;
     font-weight: 800;
-
 }
 
-.navigation__container .navigation{
+.navigation__container .navigation {
     display: flex;
     justify-content: flex-end;
 }
-.navigation__container .navigation li{
+
+.navigation__container .navigation li {
     list-style: none;
     margin-right: 30px;
 }
 
-.navigation__container .navigation li a{
+.navigation__container .navigation li a {
     font-size: 25px;
     color: #52311e;
-        font-weight: 300;
+    font-weight: 300;
     text-decoration: none;
     font-family: 'Teko', sans-serif;
 }
 
-.left-nav{
+.left-nav {
     display: flex;
     align-items: center;
 }
-.right-nav{
+
+.right-nav {
     display: flex;
     align-items: center;
 }
-.header__contents{
+
+.header__contents {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin: 30px 30px;
 }
-.header-left__content{
+
+.header-left__content {
     /* background-color: red; */
     margin-top: 40px;
 }
 
-
-.header-left__content h3{
+.header-left__content h3 {
     padding: 10px;
     border: 2px dashed #52311e;
     font-size: 15px;
 }
-.header-right{
+
+.header-right {
     filter: drop-shadow(10px 5px 4px #111);
-    
 }
 
-.header-right img{
+.header-right img {
     width: 100%;
     height: 100%;
     /* width: 600px;
     height: 800px; */
-
 }
-.burger_text{
+
+.burger_text {
     font-size: 85px;
     font-family: 'Alfa Slab One', cursive;
     text-shadow: 2px 1px #fff;
-    color: #52311e;;
-
+    color: #52311e;
+    ;
 }
-.week_text{
-    font-size: 60px ;
+
+.week_text {
+    font-size: 60px;
     font-family: 'Alfa Slab One', cursive;
     color: #52311e;
     text-shadow: 2px 1px #fff;
-
-
 }
+
 
 /* Header End */
 
-@media(max-width: 800px){
 
+/* Body -1 Styles */
+
+
+/* Body -1 Styles End */
+
+
+/* Body -2 Styles */
+
+
+/* Body -2 Styles End */
+
+
+/* Footer Styles */
+
+.footer__heading {
+    /* text-align: center; */
+    margin: 0 auto;
+    color: #47210c;
 }
+
+.footer__heading span {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.footer__heading h1 {
+    font-family: "Alfa Slab One", 'Teko', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.form__image1 {
+    height: 100%;
+    margin-left: 80px;
+}
+
+.form__image1>img {
+    height: 400%;
+    width: 200%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 10px;
+    width: 150%;
+    margin-left: 150px;
+    /* display: flex; */
+}
+
+.justify-1 {
+    margin-right: -60px;
+    margin-left: 30px;
+}
+
+.justify-1>input {
+    width: 80%;
+}
+
+.justify-2>input {
+    width: 80%;
+}
+
+
+/* .justify-2 {
+    margin-left: -60px;
+} */
+
+input {
+    margin: 15px auto;
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #eee;
+    color: #b3b3b3;
+    border-radius: 5px;
+}
+
+.form__image2>img {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    bottom: 100px; */
+}
+
+[type="button"] {
+    background-color: red;
+    /* border: none; */
+    color: #eee;
+    /* font-weight: bold; */
+    font-size: 15px;
+    font-family: "Alfa Slab One", 'Teko';
+    word-spacing: 5px;
+}
+
+
+/* .footerburger {
+    font-size: 80px;
+} */
+
+.other {
+    color: #eee;
+    background: url(../images/bg.png);
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eee;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Footer Styles End */
+
+@media(max-width: 800px) {}
