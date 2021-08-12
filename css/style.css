@@ -231,10 +231,10 @@ input {
     word-spacing: 5px;
 }
 
-
-/* .footerburger {
+.footerburger {
     font-size: 80px;
-} */
+    color: #eee;
+}
 
 .other {
     color: #eee;
