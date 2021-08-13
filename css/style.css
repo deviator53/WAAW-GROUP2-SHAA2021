@@ -308,6 +308,9 @@ img {
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
 }
+article img{
+    filter: drop-shadow(10px 5px 4px #111);
+}
 
 .sub-container {
     width: 50%;
@@ -390,46 +393,60 @@ img {
     min-height: 100%
 }
 
-.container-two {
+/* .container-two {
     display: flex;
     height: 100%;
-}
+} */
 
 .tasty {
-    position: relative;
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    /* position: relative;
     width: 17%;
     height: 40px;
     padding: 10px 5px 5px 40px;
-    margin-left: 41%;
+    margin-left: 41%; */
 }
 
 .tasty-one {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.2vw;
-    position: absolute;
+    /* font-family: 'Oswald', sans-serif; */
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffcd62;
+    color: #52311e;
+    margin: auto;
+    
+}
+.tasty-one:hover{
+    background-color: #52311e;
+    color: #ffcd62;
 }
 
 .header {
-    margin-top: 10px 30px;
+    margin-top: 50px;
 }
 
-.header-h {
-    display: flex;
+.header h3 {
+    /* display: flex;
     justify-content: center;
-    font-family: 'Sigmar One', cursive;
-    margin: 8px 10px 10px 10px;
-    font-size: xx-large;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 8px 10px 10px 10px; */
+    font: size 30px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .letter {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    margin: -5px 10px 10px 10px;
+    margin: -5px 10px 10px 10px; */
 }
 
 .letter p {
-    padding: 0 20px 20px;
+    text-align:center; 
 }
 
 .grid {
@@ -443,7 +460,6 @@ img {
 .grid>article {
     border: none;
     text-align: center;
-    width: 21.9619vw;
 }
 
 .text button {
@@ -452,7 +468,7 @@ img {
     color: white;
     padding: 10px;
     width: 60%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-weight: 600;
     font-size: large;
     cursor: pointer;
@@ -468,9 +484,12 @@ img {
 }
 
 .text h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
     padding: 0 0 0 10px;
     margin: 20px;
+}
+.text p{
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 768px) {
