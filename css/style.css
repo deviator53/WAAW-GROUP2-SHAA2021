@@ -5,6 +5,7 @@
 
 body {
     font-family: "Teko";
+    scroll-behavior: smooth;
 }
 
 
@@ -206,9 +207,28 @@ header {
     }
 }
 
+@media(max-width:550px){
+   
+    .burger-text{
+        font-size: 20px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:480px){
+   
+    .deliver-text{
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
 @media(max-width: 400px){
     .header{
         overflow:hidden;
+    }
+    .left-nav{
+        margin:auto;
     }
     .deliver{
         display: none;
@@ -236,6 +256,12 @@ header {
         flex-direction: column;
     }
 
+}
+@media(max-width:387px){
+    .left-nav{
+        margin:auto;
+    }
+   
 }
 /* Header Media Query End */
 
