@@ -243,22 +243,10 @@ header {
 
 
 /* usoroh styles */
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
 
 .container {
     display: flex;
     height: 100%;
-
-
 }
 
 .container__first {
@@ -267,9 +255,8 @@ body{
     color: white;
     border-radius: 10px 10px 10px 10px;
     height: 400px;
-    width:  47.565vw;
+    width: 47.565vw;
     margin: 40px 10px 40px 40px;
-
 }
 
 .text-1 {
@@ -289,14 +276,14 @@ body{
 }
 
 img {
-    width: 100%; /* or any custom size */
+    width: 100%;
+    /* or any custom size */
     height: 100%;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
 }
 
 .sub-container {
-
     width: 50%;
     margin-right: 30px;
 }
@@ -307,13 +294,12 @@ img {
     color: white;
     border-radius: 10px 10px 10px 10px;
     height: 180px;
-    width:  90%;
+    width: 90%;
     margin: 39px 40px 40px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden
-
 }
 
 .text-3 {
@@ -344,9 +330,7 @@ img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
-
 }
-
 
 .container__third {
     position: relative;
@@ -354,9 +338,8 @@ img {
     color: white;
     border-radius: 10px 10px 10px 10px;
     height: 180px;
-    width:  90%;
+    width: 90%;
     margin: 40px 40px 40px 40px;
-
 }
 
 .text-6 {
@@ -379,7 +362,6 @@ img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
-
 }
 
 .container-two {
@@ -394,26 +376,20 @@ img {
     height: 40px;
     padding: 10px 5px 5px 40px;
     margin-left: 41%;
-
-
 }
-
 
 .tasty-one {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2vw;
     position: absolute;
-
 }
 
 .header {
-
     margin-top: 10px 30px;
-
 }
 
 .header-h {
-    display:flex;
+    display: flex;
     justify-content: center;
     font-family: 'Sigmar One', cursive;
     margin: 8px 10px 10px 10px;
@@ -438,7 +414,7 @@ img {
     align-items: center;
 }
 
-.grid > article {
+.grid>article {
     border: none;
     text-align: center;
     width: 21.9619vw;
@@ -457,7 +433,7 @@ img {
     margin-top: 20px;
 }
 
-.grid > article img {
+.grid>article img {
     width: 100%;
 }
 
@@ -466,11 +442,10 @@ img {
 }
 
 .text h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0 0 0 10px;
     margin: 20px;
 }
-
 
 @media (max-width: 768px) {
     .grid {
@@ -478,18 +453,14 @@ img {
     }
 }
 
-
 @media (max-width: 500px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
     }
-
-    .grid > article {
+    .grid>article {
         text-align: center;
     }
 }
-
-
 
 
 /* usoroh styles end*/
