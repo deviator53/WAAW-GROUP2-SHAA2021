@@ -136,13 +136,260 @@ header {
 /* Header End */
 
 
-/* Body -1 Styles */
+/* usoroh styles */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+
+}
+
+.container {
+    display: flex;
+    height: 100%;
 
 
-/* Body -1 Styles End */
+}
+
+.container__first {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    height: 400px;
+    width:  47.565vw;
+    margin: 40px 10px 40px 40px;
+
+}
+
+.text-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+.text-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vw;
+    position: absolute;
+    top: 35px;
+    left: 19px;
+}
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sub-container {
+
+    width: 50%;
+    margin-right: 30px;
+}
+
+.container__second {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    height: 180px;
+    width:  90%;
+    margin: 39px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+
+}
+
+.text-3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+.text-4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4vw;
+    position: absolute;
+    top: 40px;
+    left: 19px;
+}
+
+.text-5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 75px;
+    left: 19px;
+}
+
+.container__second img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
 
 
-/* Body -2 Styles */
+.container__third {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    height: 180px;
+    width:  90%;
+    margin: 40px 40px 40px 40px;
+
+}
+
+.text-6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+.text-7 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4vw;
+    position: absolute;
+    top: 40px;
+    left: 19px;
+}
+
+.container__third img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+
+.container-two {
+    display: flex;
+    height: 100%;
+}
+
+.tasty {
+    position: relative;
+    background-color: yellow;
+    width: 17%;
+    height: 40px;
+    padding: 10px 5px 5px 40px;
+    margin-left: 41%;
+
+
+}
+
+
+.tasty-one {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2vw;
+    position: absolute;
+
+}
+
+.header {
+
+    margin-top: 10px 30px;
+
+}
+
+.header-h {
+    display:flex;
+    justify-content: center;
+    font-family: 'Sigmar One', cursive;
+    margin: 8px 10px 10px 10px;
+    font-size: xx-large;
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    margin: -5px 10px 10px 10px;
+}
+
+.letter p {
+    padding: 0 20px 20px;
+}
+
+.grid {
+    margin: 80px 0 0 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.grid > article {
+    border: none;
+    text-align: center;
+    width: 21.9619vw;
+}
+
+.text button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.grid > article img {
+    width: 100%;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text h3 {
+    font-family: 'Oswald', sans-serif;
+    padding: 0 0 0 10px;
+    margin: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid > article {
+        text-align: center;
+    }
+}
+
+
+
+
+/* usoroh styles end*/
 
 
 /* eunice css */
